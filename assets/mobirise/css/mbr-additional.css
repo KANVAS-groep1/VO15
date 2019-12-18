@@ -1694,18 +1694,39 @@ section.lazy-placeholder:after {
 .cid-rKU6tLlyBL H2 {
   color: #c1c1c1;
 }
-.cid-rKZJ6wbLWP {
-  background: #000000;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.cid-rL0AzuVGsL {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #000000;
 }
-.cid-rKZJ6wbLWP .video-block {
-  margin: auto;
+.cid-rL0AzuVGsL .card-box {
+  background-color: #000000;
+  padding: 2rem;
 }
-@media (max-width: 768px) {
-  .cid-rKZJ6wbLWP .video-block {
-    width: 100% !important;
-  }
+.cid-rL0AzuVGsL h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rL0AzuVGsL p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rL0AzuVGsL .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rL0AzuVGsL .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rL0AzuVGsL .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
 .cid-rJioaXVcAR {
   padding-top: 0px;
